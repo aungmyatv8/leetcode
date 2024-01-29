@@ -9,7 +9,6 @@ class Solution:
         def check_height(node):
             if not node:
                 return 0
-            print(node.left)
             
             left_height = check_height(node.left)
             if left_height == -1:
