@@ -11,6 +11,7 @@ def climb_stairs(n):
     for i in range(3, n + 1):
         # print(i)
          ways[i] = ways[i - 1] + ways[i - 2]
+         print(ways)
     return ways[n]
 
 
