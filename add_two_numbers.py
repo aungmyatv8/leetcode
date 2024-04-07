@@ -10,6 +10,7 @@ def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
 
 
     while l1 or l2 or carry:
+        # print(l1, l2)
         sum_val = carry 
         if l1:
             print(l1.val, sum_val)
